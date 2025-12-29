@@ -1,3 +1,5 @@
+-- docker exec -i docker-db-1 mysql -u root -proot study_time_management < app.sql
+
 -- usersテーブル
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
